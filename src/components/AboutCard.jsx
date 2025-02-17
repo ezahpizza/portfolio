@@ -9,7 +9,7 @@ function AboutCard() {
         </p>
         <img
             loading="lazy"
-            src="/pentacle.svg"
+            src="${import.meta.env.BASE_URL}pentacle.svg"
             className="object-contain self-end max-w-full aspect-square w-[119px] animate-[spin_5500ms_ease-in-out]"
             alt=""
         />

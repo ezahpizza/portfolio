@@ -8,7 +8,7 @@ function IntroCard() {
                     <div className="flex overflow-hidden flex-col grow px-6 pt-9 pb-20 w-full text-6xl font-bold text-black bg-primary rounded-3xl leading-[56px] max-md:px-5 max-md:mt-6 max-md:max-w-full max-md:text-4xl max-md:leading-10">
                         <img
                             loading="lazy"
-                            src="/pentacle.svg"
+                            src="${import.meta.env.BASE_URL}pentacle.svg"
                             className="object-contain self-end max-w-full aspect-square w-[119px] animate-[spin_5500ms_ease-in-out]"
                             alt=""
                         />
