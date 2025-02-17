@@ -13,7 +13,7 @@ function Header() {
                     <button 
                         onClick={() => navigate('/')}>
                             <img 
-                            src="\prateek-text-logo.svg" 
+                            src="/prateek-text-logo.svg" 
                             alt="Prateek Logo" 
                             className="ml-6 h-8 max-md:ml-2" 
                         />

@@ -12,22 +12,22 @@ function SidebarSection() {
     const projects = [
         {
             title: "mindEase",
-            imageSrc: "/src/public/mindease.jpg",
+            imageSrc: "/mindease.jpg",
             url: "https://www.linkedin.com/in/prateekmp/details/projects/"
         },
         {
             title: "T5 summariser",
-            imageSrc: "/src/public/summariser.jpg",
+            imageSrc: "/summariser.jpg",
             url: "https://ezahpizza-summarizer.streamlit.app"
         },
         {
             title: "T5 translator",
-            imageSrc: "/src/public/translator.jpg",
+            imageSrc: "/translator.jpg",
             url: "https://ezahpizza-text-translation.streamlit.app"
         },
         {
             title: "BERT question-answerer",
-            imageSrc: "/src/public/qa.jpg",
+            imageSrc: "/qa.jpg",
             url: "https://ezahpizza-bert-q-a.streamlit.app/?"
         }
     ];

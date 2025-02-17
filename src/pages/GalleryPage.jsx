@@ -50,14 +50,14 @@ function GalleryPage() {
                         {/* First Row */}
                         <div className={`md:col-span-8 md:row-span-2 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid1 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\effulgent.png"
+                                src="/effulgent.png"
                                 alt="Featured Artwork"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className={`md:col-span-4 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid1 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\akira.jpg"
+                                src="/akira.jpg"
                                 alt="Artwork 2"
                                 className="w-full h-full object-cover"
                             />
@@ -66,21 +66,21 @@ function GalleryPage() {
                         {/* Second Row */}
                         <div className={`md:col-span-4 md:row-span-2 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid2 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\mirror.png"
+                                src="/mirror.png"
                                 alt="Artwork 3"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className={`md:col-span-4 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid2 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\koi.png"
+                                src="/koi.png"
                                 alt="Artwork 4"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className={`md:col-span-4 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid2 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\koi_og.jpg"
+                                src="/koi_og.jpg"
                                 alt="Artwork 4"
                                 className="w-full h-full object-cover"
                             />
@@ -89,14 +89,14 @@ function GalleryPage() {
                         {/* Third Row */}
                         <div className={`md:col-span-6 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid3 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\duotone.png"
+                                src="/duotone.png"
                                 alt="Artwork 5"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className={`md:col-span-6 h-64 md:h-auto bg-card rounded-lg overflow-hidden transition-transform duration-700 ease-out ${animations.grid3 ? 'translate-x-0' : '-translate-x-full'}`}>
                             <img 
-                                src="\rose.png"
+                                src="/rose.png"
                                 alt="Artwork 6"
                                 className="w-full h-full object-cover"
                             />

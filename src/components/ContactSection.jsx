@@ -9,7 +9,7 @@ function ContactSection() {
                 <div className="flex justify-end">
                     <img
                         loading="lazy"
-                        src="\pentacle.svg"
+                        src="/pentacle.svg"
                         className="object-contain self-end max-w-full aspect-square w-[119px] animate-[spin_5500ms_ease-in-out]"
                         alt=""
                     />

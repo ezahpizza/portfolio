@@ -2,12 +2,12 @@ import React from "react";
 
 function SkillsCard() {
     const skills = [
-        { src: "/src/public/fastapi.svg", alt: "FastAPI" },
-        { src: "/src/public/react.svg", alt: "ReactJS" },
-        { src: "/src/public/mongodb.svg", alt: "MongoDB" },
-        { src: "/src/public/tensorflow.svg", alt: "TensorFlow" },
-        { src: "/src/public/pytorch.svg", alt: "PyTorch" },
-        { src: "/src/public/tailwindcss.svg", alt: "TailwindCSS" }
+        { src: "/fastapi.svg", alt: "FastAPI" },
+        { src: "/react.svg", alt: "ReactJS" },
+        { src: "/mongodb.svg", alt: "MongoDB" },
+        { src: "/tensorflow.svg", alt: "TensorFlow" },
+        { src: "/pytorch.svg", alt: "PyTorch" },
+        { src: "/tailwindcss.svg", alt: "TailwindCSS" }
     ];
 
     return (
