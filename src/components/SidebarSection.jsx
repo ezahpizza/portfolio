@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 
 function SidebarSection() {
     const navigate = useNavigate();
-    
     const [hoveredIndex, setHoveredIndex] = useState(null);
     
     const projects = [
@@ -37,8 +36,8 @@ function SidebarSection() {
     };
 
     return (
-        <aside className="flex flex-col ml-5 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col justify-between min-h-screen text-black max-md:mt-7 max-md:max-w-full">
+        <aside className="flex flex-col h-full ml-5 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col justify-between h-full text-black max-md:mt-7 max-md:max-w-full">
                 <div className="flex overflow-hidden flex-col px-6 py-10 w-full text-2xl font-medium bg-accent rounded-3xl max-md:px-5 max-md:max-w-full">
                     <h2 className="self-start text-6xl font-medium max-md:mt-10 max-md:text-4xl">Projects</h2>
                     {projects.map((project, index) => (
@@ -86,7 +85,7 @@ function SidebarSection() {
                     </div>
                 </div>
                 
-                <div className="mt-2 flex flex-col">
+                <div className="mt-2 flex flex-col flex-grow">
                     <SkillsCard />
                     <SocialsCard />
                 </div>

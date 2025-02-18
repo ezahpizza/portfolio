@@ -44,17 +44,17 @@ function HomePage() {
     };
 
     return (
-        <div className="min-h-screen bg-background relative">
+        <div className="min-h-screen bg-background relative flex flex-col">
             {isLoading && <LoadingScreen onLoadingComplete={handleLoadingComplete} />}
             
-            <div className={`transition-opacity duration-300 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+            <div className={`transition-opacity duration-300 flex-1 flex flex-col ${showContent ? 'opacity-100' : 'opacity-0'}`}>
                 <div className={`transition-transform duration-700 ease-out ${animations.header ? 'translate-x-0' : '-translate-x-full'}`}>
                     <Header />
                 </div>
                 
-                <div className="px-8 py-14 max-w-[1800px] mx-auto">
-                    <main className="mt-14 max-md:max-w-full">
-                        <div className="flex gap-2 max-md:flex-col min-h-screen">
+                <div className="px-8 py-14 max-w-[1800px] mx-auto flex-1 w-full">
+                    <main className="mt-14 h-full flex flex-col max-md:max-w-full">
+                        <div className="flex gap-2 max-md:flex-col flex-1">
                             <div className="flex flex-col w-[67%] max-md:ml-0 max-md:w-full">
                                 <div className="flex gap-5 max-md:flex-col">
                                     <div className={`w-[63%] max-md:w-full transition-transform duration-700 ease-out ${animations.intro ? 'translate-x-0' : '-translate-x-full'}`}>
@@ -65,7 +65,7 @@ function HomePage() {
                                     </div>
                                 </div>
                             
-                                <div className="mt-8 flex-grow max-md:max-w-full">
+                                <div className="mt-8 flex-1 max-md:max-w-full">
                                     <div className={`flex gap-1 max-md:flex-col h-full transition-transform duration-700 ease-out ${animations.aboutContact ? 'translate-x-0' : '-translate-x-full'}`}>
                                         <AboutCard />
                                         <ContactSection />
@@ -73,14 +73,14 @@ function HomePage() {
                                 </div> 
                             </div>
                             
-                            <div className={`w-[33%] max-md:w-full transition-transform duration-700 ease-out ${animations.sidebar ? 'translate-x-0' : '-translate-x-full'}`}>
+                            <div className={`w-[33%] max-md:w-full flex transition-transform duration-700 ease-out ${animations.sidebar ? 'translate-x-0' : '-translate-x-full'}`}>
                                 <SidebarSection />
                             </div>
                         </div>
                     </main>
                 </div>
                 
-                <div className={`transition-transform duration-700 ease-out ${animations.footer ? 'translate-x-0' : '-translate-x-full'}`}>
+                <div className={`transition-transform duration-700 ease-out mt-auto ${animations.footer ? 'translate-x-0' : '-translate-x-full'}`}>
                     <Footer />
                 </div>
             </div>
