@@ -52,7 +52,7 @@ function HomePage() {
                     <Header />
                 </div>
                 
-                <div className="px-8 py-14 max-w-[1800px] mx-auto flex-1 w-full">
+                <div className="px-8 py-14 w=full mx-auto flex-1 w-full">
                     <main className="mt-14 h-full flex flex-col max-md:max-w-full">
                         <div className="flex gap-2 max-md:flex-col flex-1">
                             <div className="flex flex-col w-[67%] max-md:ml-0 max-md:w-full">
