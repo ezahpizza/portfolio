@@ -16,20 +16,26 @@ function SkillsCard() {
                 <h2 className="self-start text-2xl font-medium max-md:mt-6 max-md:text-4xl">
                     Primary Tech Stack
                 </h2>
-
             </div>         
-            <div className="grid grid-cols-3 gap-4 mt-8 justify-items-center">
+            <div className="grid grid-cols-3 gap-8 mt-4 justify-items-center">
                 {skills.map((skill, index) => (
                     <div 
                         key={index} 
-                        className="transition-transform duration-300 hover:-translate-y-1"
+                        className="group relative"
                     >
-                        <img
-                            loading="lazy"
-                            src={skill.src}
-                            className="object-contain self-end max-w-full  bg-header object-cover rounded-full border-14 border-header aspect-square w-[119px] animate-[spin_5500ms_ease-in-out]"
-                            alt={skill.alt}
-                        />
+                        <div className="transition-transform duration-300 group-hover:-translate-y-1">
+                            <img
+                                loading="lazy"
+                                src={skill.src}
+                                className="object-contain self-end max-w-full bg-header object-cover rounded-full border-14 border-header aspect-square w-[119px] animate-[spin_5500ms_ease-in-out]"
+                                alt={skill.alt}
+                            />
+                        </div>
+                        <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <span className="whitespace-nowrap bg-primary text-white px-2 py-1 rounded text-sm">
+                                {skill.alt}
+                            </span>
+                        </div>
                     </div>
                 ))}
             </div>
